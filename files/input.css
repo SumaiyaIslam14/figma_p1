@@ -244,5 +244,55 @@ a.Contact{
     }
 
 
-    
+    .text_underbox{
+        display: block;
+        width: 100%;
+    }
+    .boxitems{
+        grid-template-columns: 124px auto;
+        margin-bottom: 45px;
+    }
+    .items_1 h3{
+        font-size: 12px;
+    }
+    .items_1 p{
+        font-size: 12px;
+    }
+    .items_2{
+        padding-top: 0px;
+    }
+    .items_2 h2{
+        font-size: 13px;
+    }
+    .items_2 ul li{
+        font-size: 10px;
+        margin-bottom: 1px;
+    }
+
+
+    .gallery_imgs{
+        width: 100%;
+    }
+    .gallery_imgs img{
+        width: 150px;
+        object-fit: cover;
+    }
+
+
+
+    .gallery .certifictes{
+        display: block;
+        width: 100%;
+    }
+    .gallery_box{
+        grid-template-columns: 150px 150px;
+        gap: 15px;
+        justify-content: center;
+    }
+    .gallery .certifictes .gallery_imgs img{
+        object-fit: contain;
+        width: 145px;
+        margin-bottom: 0px;
+    }
+
 }
