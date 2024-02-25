@@ -34,7 +34,7 @@ span {
     padding: 0px 60px;
 }
 
-main {
+.main {
     background-color: #231B37;
     height: 100%;
     border-radius: 50px;
@@ -106,4 +106,95 @@ a.Contact{
     color: beige;
     font-size: 14px;
     line-height: 22px;
+}
+
+/* resum part */
+
+.text_underbox{
+    display: grid;
+    grid-template-columns: 500px;
+    justify-content: end;
+}
+.boxitems{
+    display: grid;
+    grid-template-columns: 136px 320px;
+    grid-gap: 55px;
+    margin-bottom: 45px;
+    font-weight: normal;
+}
+.items_1 h3{
+    color: #5d3974;
+    font-size: 13px;
+}
+.items_1 p{
+    color: #575757;
+    font-size: 13px;
+}
+.items_2{
+    color: #e8e8e8;
+    font-size: 14px;
+}
+.items_1::after{
+    background: #a60ac7;
+    box-shadow: 0px 0px 7px #a60ac7;
+    border-radius: 40px;
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 245px;
+    top: -8px;
+    right: -23px;   
+}
+.items_2{
+    padding-top: 10px;
+}
+.items_2 ul{
+    list-style: disc;
+    list-style-position: outside;
+}
+.items_2 ul li{
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+.items_2 ul li span{
+    font-size: 10px;
+}
+.items_2 ul li ul{
+    padding-left: 20px;
+}
+.items_1{
+    text-align: right;
+    position: relative;
+}
+.items_2 h2{
+    margin-bottom: 10px;
+}
+.boxitems.items_1{
+    margin-top: 29px;
+}
+
+/* gallery part */
+
+.gallery {
+    display: grid;
+    grid-template-columns: 500px;
+    justify-content: end;
+  }
+.gallery_box{
+    display: grid;
+    grid-template-columns: 242px 242px;
+    justify-items: center;
+}
+.gallery_imgs img{
+    width: 222px;
+    height: 223px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* certifictes part */
+
+.certifictes .gallery_imgs img{
+    border-radius: 0px;
 }
