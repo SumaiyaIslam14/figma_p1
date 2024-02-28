@@ -133,19 +133,11 @@ a.Contact{
     color: #e8e8e8;
     font-size: 14px;
 }
-.items_1::after{
-    background: #a60ac7;
-    box-shadow: 0px 0px 7px #a60ac7;
-    border-radius: 40px;
-    position: absolute;
-    content: "";
-    width: 2px;
-    height: 245px;
-    top: -8px;
-    right: -23px;   
-}
+
 .items_2{
     padding-top: 10px;
+    border-left: 2px solid rgb(172, 36, 226);
+    padding-left: 35px;
 }
 .items_2 ul{
     list-style: disc;
